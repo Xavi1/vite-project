@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Form 2 - Student registration</title>
+    </head>
+    <body>
+        <header>
+            <h1 style="text-align:center;">Welcome to Student Registration</h1>
+        
+        </header>
+        <main>
+            <form>
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" placeholder="Enter your last name here" required>
+
+                <br><br>
+
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" placeholder="Enter your first name here" required>
+
+                <br><br>
+
+                <label for="dateofbirth">Date of birth:</label>
+                <input type="date" id="dateofbirth" placeholder="Enter your date of birth" required max="2023-08-03">
+
+                <br><br>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" placeholder="Enter your age" required min="3" max="70">
+
+                <br><br>
+
+                <label for="phonenumber">Phone Number:</label>
+                <input type="tel" id="phonenumber" pattern="[0-9]{3}-[0-9]{4}" placeholder="Enter your phone number" required>
+
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+
+                <br><br>
+
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" autocomplete="address" placeholder="Enter your Address" required>
+
+                <br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+    </body>
+    <footer>
+        <p>&copy; 2023 Student Registration. All rights reserved.</p>
+    </footer>
+</html>
