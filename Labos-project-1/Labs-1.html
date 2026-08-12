@@ -7,11 +7,13 @@
         <title>Labos Project 1</title>
     </head>
     <body>
-        <h1 style="text-align: center;"><b>Welcome to tech support!</b></h1>
-        <h3 style="text-align: center;">Where we figure out your computer problems!</h3>
-        <div style="text-align: center;">
+        <header>
+            <h1 style="text-align: center;"><b>Welcome to tech support!</b></h1>
+            <p style="text-align: center;">Where we figure out your computer problems!</p>
+            <div style="text-align: center;">
             <img src= "https://itadon.com/wp-content/uploads/2024/05/IT-1.webp" alt= "Tech Support Avatar" class= "Tech Support Avatar" width= "600" height= "300">
-        </div>
+            </div>
+        </header>
 
         <br><br>
 
@@ -19,43 +21,97 @@
         <div style="text-align: center;"> 
 
         <Main>
-            <form> 
-                
-                
-                <label for="lastname">Last Name:</label>
 
-                <br>
+            <h2 style="text-align: center;">Let me tell you about our services!</h2>
 
-                <input type="text" id="lastname" placeholder="Enter your last name" required>
+            <br>
+            <p>Welcome to our tech support services! We are here to help you with all your computer-related issues. This company have been providing excellent tech support for many years.We hope to give u top tier quality service.</p>
+            <h3 style="text-align: center;">Our Services:</h3>
+            <ol style="list-style-type: none;">
+                <li style="text-decoration: none;">Computer Repair</li>
+                <li style="text-align: center;">Virus Removal</li>
+                <li style="text-align: center;">Software Installation</li>
+                <li style="text-align: center;">Data Recovery</li>
+                <li style="text-align: center;">Network Setup and Troubleshooting</li>
+                <li style="text-align: center;">Hardware Upgrades</li>
+                <li style="text-align: center;">Remote Support</li>
+                <li style="text-align: center;">IT Consulting</li>
+                <li style="text-align: center;">Build your own computer</li>
+                <li style="text-align: center;">Custom PC Builds</li>
+                <li style="text-align: center;">Computer Maintenance</li>
+                <li style="text-align: center;">Operating System Installation</li>
+                <li style="text-align: center;">Computer Training and Education</li>
+                <li style="text-align: center;">Data Backup Solutions</li>    
+            </ol>
 
-                <br><br>
+            <section name="contact-form"> 
+                <h3 style="text-align: center;">Contact Us</h3>
+                <form> 
+                    <label for="lastname">Last Name:</label>
 
-                <label for="firstname">First Name:</label>
+                    <br>
 
-                <br>
+                    <input type="text" id="lastname" placeholder="Enter your last name" required>
 
-                <input type="text" id="firstname" placeholder="Enter your first name" required>
+                    <br><br>
 
-                <br><br>
+                    <label for="firstname">First Name:</label>
 
-                <label for="email">Email:</label>
+                    <br>
 
-                <br>
+                    <input type="text" id="firstname" placeholder="Enter your first name" required>
 
-                <input type="email" id="email" placeholder="Enter your email" required>
+                    <br><br>
 
-                <br><br>
+                    <label for="phonenumber">Phone Number:</label>
 
-                <label for="message">Computer Problems:</label>
+                    <br>
 
-                <br>
+                    <input type="tel" id="phonenumber" pattern="[0-9]{3}-[0-9]{4}" placeholder="Enter your phone number" required>
 
-                <textarea row="5" type="textarea" id="message" placeholder="Enter computer problems" required></textarea>
+                    <br><br>
 
-                <br><br>
-                <button type="submit">Submit</button>
-                
-            </form>
+                    <label for="email">Email:</label>
+
+                    <br>
+
+                    <input type="email" id="email" placeholder="Enter your email" required>
+
+                    <br><br>
+
+                    <label for="services">Services:</label>
+
+                    <br>
+                    
+                    <select id="services" name="services" required>
+                        <option value="">Select a service</option>
+                        <option value="computer-repair">Computer Repair</option>
+                        <option value="virus-removal">Virus Removal</option>
+                        <option value="software-installation">Software Installation</option>
+                        <option value="data-recovery">Data Recovery</option>
+                        <option value="network-setup">Network Setup and Troubleshooting</option>
+                        <option value="hardware-upgrades">Hardware Upgrades</option>
+                        <option value="remote-support">Remote Support</option>
+                        <option value="it-consulting">IT Consulting</option>
+                        <option value="custom-pc">Custom PC Builds</option>
+                        <option value="computer-maintenance">Computer Maintenance</option>
+                        <option value="os-installation">Operating System Installation</option>
+                        <option value="computer-training">Computer Training and Education</option>
+                        <option value="data-backup">Data Backup Solutions</option>
+                    </select>
+
+                    <br><br>
+
+                    <label for="message">Computer Problems:</label>
+
+                    <br>
+
+                    <textarea row="5" type="textarea" id="message" placeholder="Enter computer problems" required></textarea>
+
+                    <br><br>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
 
     
         </Main>
