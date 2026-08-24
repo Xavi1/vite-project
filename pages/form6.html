@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Form 6 - Job application form </title>
+        
+    </head>
+    <body>
+        <header>
+            <h1 style="text-align:center;">Job application form</h1>
+        
+        </header>
+        <main>
+            <div style="display: flex;
+            justify-content: center;
+             align-items: center;"> 
+            <form action="/upload-destination" method="POST" enctype="multipart/form-data">
+                <label for="lastname">Last Name:</label>
+                <br>
+                <input type="text" id="lastname" placeholder="Enter your last name here" required minlength="3" maxlength="50">
+
+                <br><br>
+
+                <label for="firstname">First Name:</label>
+                <br>
+                <input type="text" id="firstname" placeholder="Enter your first name here" required minlength="3" maxlength="50">
+
+                <br><br>
+
+                <label for="phonenumber">Phone Number:</label>
+                <br>
+                <input type="tel" id="phonenumber" pattern="[0-9]{3}-[0-9]{4}" placeholder="Enter your phone number" required>
+
+                <br><br>
+
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" id="email" placeholder="Enter your email" required>
+
+                <br><br>
+
+                <label for="resume-upload">Choose a file</label> 
+                <br>
+                <input type="file" id="resume-upload" name="resume" accept=".docx, .pdf" required>
+                
+                <br><br>
+
+                <label for="cover-letter-upload">Choose a file</label> 
+                <br>
+                <input type="file" id="cover-letter-upload" name="cover_letter" accept=".pdf" required>
+
+                <br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+    </body>
+    <footer>
+        <p style="text-align: center;">&copy; 2023 Job application form. All rights reserved.</p>
+    </footer>
+</html>
