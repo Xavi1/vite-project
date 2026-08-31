@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Form 5 - Event Registration Form </title>
+        
+    </head>
+    <body>
+        <header>
+            <h1 style="text-align:center;">Event Registration Form</h1>
+        
+        </header>
+        <main>
+            <div style="display: flex;
+            justify-content: center;
+             align-items: center;"> 
+            <form >
+                <label for="lastname">Last Name:</label>
+                <br>
+                <input type="text" id="lastname" placeholder="Enter your last name here" required minlength="3" maxlength="50">
+
+                <br><br>
+
+                <label for="firstname">First Name:</label>
+                <br>
+                <input type="text" id="firstname" placeholder="Enter your first name here" required minlength="3" maxlength="50">
+
+                <br><br>
+
+                <label for="phonenumber">Phone Number:</label>
+                <br>
+                <input type="tel" id="phonenumber" pattern="[0-9]{3}-[0-9]{4}" placeholder="Enter your phone number" required>
+
+                <br><br>
+
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" id="email" placeholder="Enter your email" required>
+
+                <br><br>
+
+                <label for="dateandtime">Date and Time:</label>
+                <br>
+                <input type="date" id="dateandtime" placeholder="Enter your date that you want the event to take place" required max="2026-12-12">
+                <br>
+                <input type="time" id="dateandtime" placeholder="Enter what time that you want the event to take place" required min="09:00" max="18:00">
+
+                <br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+    </body>
+    <footer>
+        <p style="text-align: center;">&copy; 2023 Event Registration Form. All rights reserved.</p>
+    </footer>
+</html>
