@@ -23,3 +23,13 @@ form {
     justify-content: center;
     align-items: center;
 }
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+li {
+    padding: 5px;
+}
