@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffefe;
+}
+
+h1 {
+    color: #105701;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h2 {
+    color: #8d8989;
+    margin-top: 10px;
+}
+
+.main-ingredient {
+    color: #020202;
+    font-weight:bold;
+    margin-top: 10px;
+}
+
+ul {
+    color: #020202;
+    background-color: #defdfd;
+    margin-top: 10px;
+}
+
+
+
