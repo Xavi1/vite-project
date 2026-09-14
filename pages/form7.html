@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Form 5 - Feedback Form </title>
-        
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
@@ -12,37 +12,34 @@
         
         </header>
         <main>
-            <div style="display: flex;
-                justify-content: center;
-                align-items: center;"> 
+       
                 <form ACTION="/submit-feedback" METHOD="POST">
                     <label feedback for="rating">Rate your experience:</label>
-                    <br>
-                    <INPUT type="radio" name="rating" value="1" /> 1</label>
-                    <label><input type="radio" name="rating" value="1" /> 1</label>
-                    <label><input type="radio" name="rating" value="2" /> 2</label>
-                    <label><input type="radio" name="rating" value="3" /> 3</label>
-                    <label><input type="radio" name="rating" value="4" /> 4</label>
-                    <label><input type="radio" name="rating" value="5" /> 5</label>
-
-                    <br><br>
+                    <div class="rating">
+                        <label><input type="radio" name="rating" value="1" /> 1</label>
+                        <label><input type="radio" name="rating" value="2" /> 2</label>
+                        <label><input type="radio" name="rating" value="3" /> 3</label>
+                        <label><input type="radio" name="rating" value="4" /> 4</label>
+                        <label><input type="radio" name="rating" value="5" /> 5</label>
+                    </div> 
+                    
 
                     <label for="comments">Comments:</label>
-                    <br>
+                    
                     <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
 
-                    <br><br>
+                    
 
                     <label>Would you recommend us?</label>
-                    <br>
+                    
                     <label><input type="radio" name="recommend" value="yes" /> Yes</label>
                     <label><input type="radio" name="recommend" value="no" /> No</label>
 
-                    <br><br>
+                    
 
                     <button type="submit">Submit</button>
                 </form>
-            </div>
+            
         </main>
     </body>
     <footer>
