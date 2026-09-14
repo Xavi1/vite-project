@@ -33,3 +33,44 @@ label {
 li {
     padding: 5px;
 }
+
+input {
+    margin-top: 5px;
+    padding-top: 0px;
+}
+
+select {
+    margin-top: 10px;
+    padding-top: 0px;
+}
+
+#profile-picture-upload {
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+.upload-files  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.upload-files input {
+    width: 100%;
+}
+
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
