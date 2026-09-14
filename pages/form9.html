@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Form 9 - Gym Membership Form </title>
-        
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
@@ -12,37 +12,34 @@
         
         </header>
         <main>
-            <div style="display: flex;
-                justify-content: center;
-                align-items: center;"> 
                 <form ACTION="/submit-feedback" METHOD="POST">
 
                     <label for="lastname">Last Name:</label>
-                    <br>
+                
                     <input type="text" id="lastname" placeholder="Enter your last name here" required minlength="3" maxlength="50">
 
-                    <br><br>
+                    
 
                     <label for="firstname">First Name:</label>
-                    <br>
+                    
                     <input type="text" id="firstname" placeholder="Enter your first name here" required minlength="3" maxlength="50">
 
-                    <br><br>
+                
 
                     <label for="phonenumber">Phone Number:</label>
-                    <br>
+                
                     <input type="tel" id="phonenumber" placeholder="Enter your phone number here" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
 
-                    <br><br>
+                
 
                     <label for="email">Email:</label>
-                    <br>
+                
                     <input type="email" id="email" placeholder="Enter your email here" required>
 
-                    <br><br>
+                
 
                     <label for="gender">Gender:</label>
-                    <br>
+                
                     <select id="gender" name="gender" required>
                         <option value="">Select your gender</option>
                         <option value="male">Male</option>
@@ -50,7 +47,7 @@
                         <option value="other">Other</option>
                     </select>
 
-                    <br><br>
+                
 
                     <select id="membership" name="membership" required>
                         <option value="">Select your membership type</option>
@@ -59,20 +56,20 @@
                         <option value="VIP">VIP</option>
                     </select>
 
-                    <br><br>
+            
 
                     <label for="membership">Select your membership type:</label>
-                    <br>
+                
                     <select id="membership" name="membership" required>
                         <option value="">Select your membership type</option>
                         <option value="monthly">Monthly</option>
                         <option value="yearly">Yearly</option>
                     </select>
 
-                    <br><br>
+                
 
                     <label for="training">Select your preferred training time:</label>
-                    <br>
+                
                     <select id="training" name="training" required>
                         <option value="">Select your preferred training time</option>
                         <option value="morning">Morning</option>
@@ -80,10 +77,10 @@
                         <option value="evening">Evening</option>
                     </select>
 
-                    <br><br>
+                
 
                     <label for="training">how do you prefer to workout with:</label>
-                    <br>
+                
                     <select id="training with" name="training with " required>
                         <option value="">Select your preferred training with</option>
                         <option value="personal trainer">Personal Trainer</option>
@@ -91,40 +88,40 @@
                         <option value="self-guided">Self-Guided</option>
                     </select>
 
-                    <br><br>
+                
                     
                     <label for="goals">What are your fitness goals?</label>
-                    <br>
+                    
                     <textarea id="goals" name="goals" rows="4" cols="50" placeholder="Enter your fitness goals here" required></textarea>
 
-                    <br><br>
+                
 
                     <label for="rating">Rate how serious your goal is:</label>
-                    <br>
+                
                     <label><input type="radio" name="rating" value="1" /> 1</label>
                     <label><input type="radio" name="rating" value="2" /> 2</label>
                     <label><input type="radio" name="rating" value="3" /> 3</label>
                     <label><input type="radio" name="rating" value="4" /> 4</label>
                     <label><input type="radio" name="rating" value="5" /> 5</label>
 
-                    <br><br>
+                
 
                     <h3>Emergency Contact:</h3>
-                    <br>
+                
                     <label for="lastname">Last Name:</label>
-                    <br>
+                
                     <input type="text" id="lastname" placeholder="Enter your last name here" required minlength="3" maxlength="50">
 
-                    <br><br>
+                
 
                     <label for="firstname">First Name:</label>
-                    <br>
+            
                     <input type="text" id="firstname" placeholder="Enter your first name here" required minlength="3" maxlength="50">
 
-                    <br><br>
+                
 
                     <label for="relationship">Relationship:</label>
-                    <br>
+                
                     <select id="relationship" name="relationship" required>
                         <option value="">Select your relationship</option>
                         <option value="parent">Parent</option>
@@ -134,30 +131,29 @@
                         <option value="other">Other</option>
                     </select>
 
-                    <br><br>
+            
 
                     <label for="phonenumber">Phone Number:</label>
-                    <br>
+                    
                     <input type="tel" id="phonenumber" placeholder="Enter your phone number here" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
 
-                    <br><br>
+                
 
                     <label for="backupnumber">Backup Phone Number:</label>
-                    <br>
+                
                     <input type="tel" id="backupnumber" placeholder="Enter your backup phone number here" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
 
-                    <br><br>
+                
 
                     <label>Would you recommend us?</label>
-                    <br>
+                
                     <label><input type="radio" name="recommend" value="yes" /> Yes</label>
                     <label><input type="radio" name="recommend" value="no" /> No</label>
 
-                    <br><br>
+                
 
                     <button type="submit">Submit</button>
                 </form>
-            </div>
         </main>
     </body>
     <footer>
