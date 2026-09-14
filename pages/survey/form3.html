@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Form 3 - Human survey</title>
+        <link rel="stylesheet" href="../style.css">
         
     </head>
     <body>
@@ -12,36 +13,34 @@
         
         </header>
         <main>
-            <div style="display: flex;
-            justify-content: center;
-             align-items: center;"> 
+        
             <form>
                 <label for="lastname">Last Name:</label>
-                <br>
+                
                 <input type="text" id="lastname" placeholder="Enter your last name here" required>
 
-                <br><br>
+                
 
                 <label for="firstname">First Name:</label>
-                <br>
+                
                 <input type="text" id="firstname" placeholder="Enter your first name here" required>
 
-                <br><br>
+                
 
                 <label for="dateofbirth">Date of birth:</label>
-                <br>
+                
                 <input type="date" id="dateofbirth" placeholder="Enter your date of birth" required max="2023-08-03">
 
-                <br><br>
+                
 
                 <label for="age">Age:</label>
-                <br>
+                
                 <input type="number" id="age" placeholder="Enter your age" required min="3" max="70">
 
-                <br><br>
+                
 
                 <label for="gender">Gender:</label>
-                <br>
+                
                 <select id="gender" name="gender" required>
                     <option value="">Select your gender</option>
                     <option value="male">Male</option>
@@ -49,28 +48,28 @@
                     <option value="other">Other</option>
                 </select>
 
-                <br><br>
+                
 
                 <label for="phonenumber">Phone Number:</label>
-                <br>
+                
                 <input type="tel" id="phonenumber" pattern="[0-9]{3}-[0-9]{4}" placeholder="Enter your phone number" required>
 
-                <br><br>
+                
 
                 <label for="email">Email:</label>
-                <br>
+                
                 <input type="email" id="email" placeholder="Enter your email" required>
 
-                <br><br>
+                
 
                 <label for="address">Address:</label>
-                <br>
+                
                 <input type="text" id="address" name="address" autocomplete="address" placeholder="Enter your Address" required>
 
-                <br><br>
+                
 
                 <label for="employement">Employment Status:</label>
-                <br>
+                
                 <select id="employement" name="employment" required>
                     <option value="">Select your employment status</option>
                     <option value="employed">Employed</option>  
@@ -79,10 +78,10 @@
                     <option value="retired">Retired</option>
                 </select>
 
-                <br><br>
+                
 
                 <label for="education">Education Level:</label>
-                <br>
+                
                 <select id="education" name="education" required>
                     <option value="">Select your education level</option>
                     <option value="highschool">High School</option>
@@ -93,10 +92,10 @@
                     <option value="none">None</option>
                 </select>
 
-                <br><br>
+                
 
                 <label for="hobbies">Hobbies:</label>
-                <br>
+                
                 <ul style="list-style-type: none;">
                     <li><input type="checkbox" id="hobbies" name="hobbies" value="reading">Reading</li>
                     <li><input type="checkbox" id="hobbies" name="hobbies" value="sports">Sports</li>
@@ -107,10 +106,9 @@
                     <li><input type="checkbox" id="hobbies" name="hobbies" value="other">Other</li>
                 </ul>
 
-                <br><br>
 
                 <label for="languages">Favourite Languages:</label>
-                <br>
+                
                 <ul style="list-style-type: none;">
                     <li><input type="radio" id="languages" name="languages" value="english">English</li>
                     <li><input type="radio" id="languages" name="languages" value="spanish">Spanish</li>
@@ -119,13 +117,13 @@
                     <li><input type="radio" id="languages" name="languages" value="other">Other</li>
                 </ul>
 
-                <br><br>
+                
 
                 <label for="message">Tell me more about yourself:</label>
-                <br>
+                
                 <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message"></textarea>
 
-                <br><br>
+                
 
 
                 <button type="submit">Submit</button>
