@@ -1,0 +1,23 @@
+
+.profile .name,
+.profile h1 {
+	color: #2b6cb0;
+}
+
+.profile .role {
+	font-weight: bold;
+}
+
+.profile h2,
+.profile .skills-heading {
+	text-transform: uppercase;
+}
+
+.profile li {
+	color: #805ad5;
+}
+
+.profile li.javascript,
+.profile li:nth-child(3) {
+	background-color: #f6e05e;
+}
