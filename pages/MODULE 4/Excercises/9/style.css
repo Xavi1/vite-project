@@ -1,0 +1,125 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #e8ecf1;
+  min-height: 100vh;
+}
+
+/* ===== HEADER / NAVBAR ===== */
+header {
+  background-color: #0b1d3a;
+  padding: 24px 40px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid #2a80f8;
+}
+
+header h1 {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  line-height: 1;
+  text-align: center;
+}
+
+header p {
+  color: #7e91a5;
+  font-size: 14px;
+  margin-top: 4px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+/* ===== MAIN / CARDS ===== */
+main {
+  max-width: 800px;
+  margin: 36px auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+article {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 28px 32px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.07);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+article:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+article h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 8px;
+}
+
+article p {
+  font-size: 15px;
+  color: #5a6270;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+/* ===== READ MORE BUTTONS ===== */
+article a {
+  display: inline-block;
+  padding: 10px 22px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+  transition: opacity 0.2s ease, transform 0.15s ease;
+}
+
+article a:hover {
+  opacity: 0.88;
+  transform: scale(1.04);
+}
+
+article a:active {
+  transform: scale(0.96);
+}
+
+/* Orange button – featured (smartphone) */
+article.featured a {
+  background-color: #e5a33d;
+  box-shadow: 0 3px 10px rgba(229, 163, 61, 0.35);
+}
+
+/* Blue button – laptops */
+article:not(.featured) a {
+  background-color: #56a3e3;
+  box-shadow: 0 3px 10px rgba(86, 163, 227, 0.35);
+}
+
+/* ===== FEATURED CARD COLOR ===== */
+article.featured {
+  border-left: 10px solid #e5a33d;
+}
+
+article:not(.featured){
+  border-left: 10px solid #56a3e3;
+}
+
+article.featured h2 {
+  color: #b47342;
+}
+
+article:not(.featured) h2 {
+  color: #504d56;
+}
