@@ -1,0 +1,21 @@
+h2 {
+    color: #007BFF;
+}
+.post {
+    color:#979393;
+}
+article.post .author p {
+    color: red;
+    font-weight: bold;
+}
+
+article p:first-of-type {
+    font-weight: bold;
+    color: #979393;
+}
+
+
+
+article h2 {
+    text-transform: uppercase;
+}
