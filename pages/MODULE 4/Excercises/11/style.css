@@ -1,0 +1,12 @@
+p {
+     color: #333333;
+}
+
+h1 {
+    color: #00008b;
+}
+
+.important {
+    color: #ff0000;
+    font-weight: bold;
+}
