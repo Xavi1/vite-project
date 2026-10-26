@@ -1,6 +1,7 @@
 .notice {
     border: 2px solid red;
     margin: 20px;
+    padding: 15px;
 }
 
 .notice h2,
