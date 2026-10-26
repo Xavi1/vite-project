@@ -1,16 +1,20 @@
 .profile {
-    width: 400px;
+    width: 330px;
     padding: 30px;
     border: 5px solid black;
     margin: 20px;
 }
 
 .profile h2 {
-    margin: 30px;
+    margin-top: 0px;
+    margin-bottom: 20px;
     padding: 20px;
+    letter-spacing: 5px;
 }
 
 .profile p {
-    padding: 15px;
+    padding: 10px;
     margin: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
