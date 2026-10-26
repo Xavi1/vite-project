@@ -1,0 +1,17 @@
+.box {
+    width: 250px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+
+.box-one { 
+    padding: 10px;
+}
+
+.box-two { 
+    padding: 30px;
+}
+
+.box-three { 
+    padding: 50px;
+}
