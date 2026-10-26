@@ -1,0 +1,9 @@
+.notice {
+    border: 2px solid red;
+    margin: 20px;
+}
+
+.notice h2,
+.notice p {
+    padding: 0;
+}
