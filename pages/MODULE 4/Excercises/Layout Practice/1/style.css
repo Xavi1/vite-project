@@ -1,0 +1,19 @@
+p {
+    border: 2px solid rgb(5, 5, 5);
+}
+
+div {
+    border: 3px solid rgb(0, 17, 255);
+}
+
+h1 {
+    border:1px solid rgb(255, 0, 0);
+}
+
+.p2 {
+    border: 2px solid green;
+}
+
+p {
+    width: 300px;
+}

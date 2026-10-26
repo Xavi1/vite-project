@@ -1,0 +1,12 @@
+.product-card {
+    width: 300px;
+    padding: 20px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    background-color: #00f1e5;
+}
+
+button {
+    padding: 10px
+}
