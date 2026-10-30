@@ -1,0 +1,40 @@
+
+/*Made card1 with the measurement given .
+ Made the left border yellow to make it stand out more.
+*/
+.card.card1 {
+    width: 250px;
+    padding: 25px;
+    margin: 20px;
+    border: 5px solid black;
+    border-left-color: rgb(244, 248, 0);
+    box-shadow: 10px 10px 5px grey;
+    box-sizing: border-box;
+}
+/*Made card2 with the measurement given .
+ Made the left border blue to make it stand out more.
+*/
+.card.card2 {
+    width: 300px;
+    padding: 30px;
+    margin: 25px;
+    border: 10px solid black;
+    border-left-color: rgb(0, 118, 253);
+    box-shadow: 10px 10px 5px grey;
+    box-sizing: border-box;
+}
+
+/*Made card3 with the measurement given to make it a bit bigger than the other two cards. 
+i also wanted to make the left border red to make it stand out more. 
+i also added a box shadow to give it a bit of depth and make it look more like a card.
+*/
+.card.card3 {
+    box-sizing: border-box;
+    width: 350px;
+    padding: 35px;
+    margin: 30px;
+    border: 15px solid black;
+    border-left-color: red;
+    box-shadow: 10px 10px 5px grey;
+}
+
